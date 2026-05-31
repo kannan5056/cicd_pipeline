@@ -1,0 +1,11 @@
+name: Hello world
+on: workflow_dispatch
+jobs:
+  Hollo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Step
+        run: |
+          echo online
+          echo two
+          echo ai coding
